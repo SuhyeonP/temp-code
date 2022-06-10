@@ -1,0 +1,11 @@
+ssh -i link-seoul-prod.pem ubuntu@15.164.124.210
+=> admin production
+
+ssh -i link-seoul-dev.pem ubuntu@3.37.205.113
+=> admin dev
+
+ssh -i link-seoul-dev.pem ubuntu@3.37.205.113
+=> help prod
+
+ssh -i link-seoul-prod.pem ubuntu@3.39.107.244
+=> help dev
